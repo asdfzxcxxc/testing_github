@@ -1,0 +1,43 @@
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 16px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.App {
+  padding: 20px;
+}
+
+
+
+/*아래 폰트*/
+@font-face {
+  font-family: "PoorStory";
+  font-weight: 10;
+  src: url("./fonts/PoorStory-Regular.ttf") format("truetype");
+} 
+@font-face {
+  font-family: "Sunflower";
+  font-weight: 10;
+  src: url("./fonts/Sunflower-Light.ttf") format("truetype");
+} 
+@font-face {
+  font-family: "GowunDodum";
+  font-weight: 10;
+  src: url("./fonts/GowunDodum-Regular.ttf") format("truetype");
+} 
+
+* {
+  font-family: "Nanum Gothic" !important;
+}
